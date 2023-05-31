@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.quiz{
+
+}
+.introduce{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(#C18500,#FFEDC2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.introduce-container{
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+
+}
+.introduce-logo{
+    background-color: transparent;
+
+}
+.introduce-btn{
+    width: 400px;
+    height: 50px;
+    font-size: 1.2rem;
+    background-color: #C18500;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.dropdown{
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown select{
+    width: 400px;
+    height: 50px;
+    border: 1px solid lightsalmon;
+    border-radius: 10px;
+    font-size: 1.2rem;
 }
